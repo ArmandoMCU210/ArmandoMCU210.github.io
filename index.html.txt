@@ -1,9 +1,5 @@
-<!DOCTYPE html>
 <html>
-<head>
-    <title>Mi CV</title>
-</head>
 <body>
-  
+Armando Carrillo Rincón <h1>
 </body>
-<html>
+</html>
