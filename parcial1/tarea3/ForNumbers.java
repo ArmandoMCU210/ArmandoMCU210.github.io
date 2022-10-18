@@ -38,7 +38,7 @@ public class ForNumbers {
           
           System.out.println("Pares menores de 100 orden descedente");
           n=0;
-          for (int i = 100; i >= (n); i=i-2) {
+          for (int i = 98; i >= (n); i=i-2) {
             System.out.println(i);
           }
           
