@@ -36,15 +36,15 @@ public class ForNumbers {
             System.out.println(i);
           }
           
-          System.out.println("Pares menores de 100 orden descendente");
-          n=-2;
-          for (int i = -100; i <= (n); i=i+2) {
+          System.out.println("Pares menores de 100 orden descedente");
+          n=0;
+          for (int i = 100; i >= (n); i=i-2) {
             System.out.println(i);
           }
           
           System.out.println("Impares entre 10 y 50 orden descendente");
-          n=-10;
-          for (int i = -49; i <= (n); i=i+2) {
+          n=11;
+          for (int i = 49; i >= (n); i=i-3) {
             System.out.println(i);
           }
           }
