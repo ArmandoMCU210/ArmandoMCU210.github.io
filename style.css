@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+body{
+    background: url(./ArmandoMCU210.github.io/fondo.jpg);
+    background-size: 100%;
+    width: 90%;
+}
+
+h1{
+    margin-left: 12%;
+}
+
+fieldset{
+    margin-bottom: 10px;
+    margin-left: 12%;
+}
+
+legend{
+    border: solid 1px black;
+    padding: 2px;
+    font-weight: bolder;
+    border-radius: 10px;
+  }
+
+.eye{
+    position:absolute;
+    height:150px;
+    width:125px;
+    top: 30px;
+    left : 23px;
+    z-index: 1;
+    margin: 5px;
+    border: solid 3px black;
+    border-radius: 5px;
+  }
+  
+  .heaven
+  {
+    height:2100px;
+    width:170px;
+    z-index: -1;
+  }
