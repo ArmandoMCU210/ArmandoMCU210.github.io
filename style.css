@@ -39,8 +39,7 @@ legend{
     border-radius: 5px;
   }
   
-  .heaven
-  {
+.heaven{
     height:2100px;
     width:170px;
     z-index: -1;
