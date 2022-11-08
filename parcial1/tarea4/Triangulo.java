@@ -16,6 +16,10 @@ public class Triangulo {
                 System.out.print(" ");
             }
 
+            for (int l = 9; l >= (i); l=l-1){
+                System.out.print(" ");
+            }
+
             for (int l = 1; l <= (i*2)-1; l++){
                 System.out.print("*");
             }
