@@ -2,7 +2,7 @@ public class Beatles {
     class Main {
         public static void main(String[] args) {
             
-            String band = "Queen";
+            String band = "Beatles";
             
             if (band == "Beatles") { // start of block
                 System.out.print("Hey ");
