@@ -1,38 +1,35 @@
-package parcial2.tarea5;
+package parcial2.examen1;
 
-public class MatrizTarea3 {
-    public static void main(String[] args){
+import java.util.Random;
 
-        int[][] a = {
-            {1, 1}, 
-            {1, 1}, 
-        };
+public class Act5 {
+    public static void main (String[]args){
+        
+        Random n = new Random();
+
+        int[][] a =  new int [8][8];
         System.out.println("Matriz A:");
       
         for (int i = 0; i < a.length; ++i) {
             for(int j = 0; j < a[i].length; ++j) {
+                a [i][j] = n.nextInt(5);
                 System.out.print( "|"+a[i][j]+ "|");
             }
         System.out.println(" ");
         }
 
-        int[][] b = {
-            {1, 1}, 
-            {1, 1}, 
-        };
+        int[][] b =  new int [8][8];
         System.out.println("Matriz B:");
       
         for (int i = 0; i < a.length; ++i) {
             for(int j = 0; j < a[i].length; ++j) {
+                b [i][j] = n.nextInt(5);
                 System.out.print( "|"+b[i][j]+ "|");
             }
         System.out.println(" ");;
         }
 
-        int[][] c = {
-            {0, 0}, 
-            {0, 0}, 
-        };
+        int[][] c =  new int [8][8];;
         System.out.println("Matriz C:");
 
         for (int i = 0; i < a.length; ++i) {
@@ -47,5 +44,6 @@ public class MatrizTarea3 {
             }
         System.out.println(" ");
         }
+
     }
 }
